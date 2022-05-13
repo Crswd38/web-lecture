@@ -1,0 +1,94 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /* Size */
+  --spacing: 12px;
+  --spacing-small: 6px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-large: 20px;
+  --font-regular: 16px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  
+}
+.logo {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .icons {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: white;
+  }
+.player video {
+   width: 100%;
+   height: auto;
+ }
+ .hashtags {
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+   margin-left: 10px;
+   color: #045fd4;
+ }
+ .titleAndButton {
+   margin-left: 10px;
+ }
+ .views {
+  margin-left: 10px;
+ }
+ .actions {
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+   margin-left: 100px;
+   padding: 10px 10px;
+   text-decoration: none;
+ }
+.che {
+  margin-left: 15px;
+}
+.yun{
+  margin-left: 15px;
+}
+/*데스크탑*/
+.body {
+  display: flex;
+  flex-direction: row;
+}
+.fa-thumbs-down {
+  margin-left: 10px;
+}
+/*모바일*/
+@media screen and (max-width: 786px){
+  .body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1;
+  }
+  
+ 
+}
